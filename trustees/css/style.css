@@ -1,0 +1,64 @@
+/*
+Theme Name: Trustees
+Description: This is a child theme for Hancock County Trustees of Public Reservations
+Author: Reach Maine Marketing
+Author URI: http: //www.reachmaine.com/
+Template: flatsome
+Version: 1.3
+*/
+/* Colors ---------------------------------------------- */
+/* Typography ------------------------------------------ */
+/* general */
+/* responsive video embed zig 10May16 */
+.ea-responsive-container {
+  position: relative;
+  padding-bottom: 50.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 1em; }
+  .ea-responsive-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+/* ------------------ Reach Branding ---------------------*/
+/* used with reach branding, usually in copyright footer.
+<a class="reach-logo" href="https://www.reachmaine.com/">R<i style="color: #f58220">EA</i>CH Maine</a>
+*/
+.reach-logo:before {
+  content: url("images/reach-favicon.png");
+  padding-right: 3px; }
+
+/* =Theme customization starts here */
+.from_the_blog_comments {
+  display: none;
+  visibility: hidden; }
+
+aside.widget.widget_recent_entries li {
+  padding-bottom: 15px; }
+
+/******* these should stay at bottom of this file **********/
+/* ===================================================== */
+/* Media Queries --------------------------------------- */
+/* ===================================================== */
+/* Foundation Block Grids for above small breakpoint */
+/***************------------- 15. MOBILE -------------*****************/
+@media only screen and (max-width: 48em) {
+  #masthead {
+    height: inherit !important; }
+    #masthead .header-container {
+      display: block; }
+    #masthead #right-logo-phone {
+      display: block; }
+      #masthead #right-logo-phone .eai-right-image {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        float: none; } }
+/* Medium Displays: 768px - 1279px */
+/* Styles for screens that are atleast 768px; */
+/* Large Displays: 1280px - 1440px */
+/* X-Large Displays: 1400px and up */
+/* breakpoints for ux_banners */

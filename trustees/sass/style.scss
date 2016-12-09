@@ -1,0 +1,24 @@
+/*
+Theme Name: Trustees
+Description: This is a child theme for Hancock County Trustees of Public Reservations
+Author: Reach Maine Marketing
+Author URI: http: //www.reachmaine.com/
+Template: flatsome
+Version: 1.3
+*/
+
+@import "partials/settings";
+
+/* =Theme customization starts here */
+.from_the_blog_comments { // hide comments on blog shortcode
+	display: none;
+	visibility: hidden;
+}
+aside.widget.widget_recent_entries { // give recent entries some breathing room
+	li {
+		padding-bottom: 15px;
+	}
+}
+
+/******* these should stay at bottom of this file **********/
+@import "partials/media";
