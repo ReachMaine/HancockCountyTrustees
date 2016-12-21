@@ -40,6 +40,10 @@ Version: 1.3
 aside.widget.widget_recent_entries li {
   padding-bottom: 15px; }
 
+a {
+  font-weight: bold;
+  color: #404040; }
+
 /******* these should stay at bottom of this file **********/
 /* ===================================================== */
 /* Media Queries --------------------------------------- */

@@ -20,5 +20,10 @@ aside.widget.widget_recent_entries { // give recent entries some breathing room
 	}
 }
 
+a {
+	font-weight: bold;
+	color: #404040;
+}
+
 /******* these should stay at bottom of this file **********/
 @import "partials/media";
