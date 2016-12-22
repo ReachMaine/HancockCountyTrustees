@@ -44,6 +44,11 @@ a {
   font-weight: bold;
   color: #404040; }
 
+.col .slider {
+  margin-bottom: 20px; }
+  .col .slider .flickity-viewport .img {
+    margin-bottom: 0px !important; }
+
 /******* these should stay at bottom of this file **********/
 /* ===================================================== */
 /* Media Queries --------------------------------------- */

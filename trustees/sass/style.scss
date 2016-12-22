@@ -25,5 +25,13 @@ a {
 	color: #404040;
 }
 
+// homepag slider
+.col .slider {
+	margin-bottom: 20px;
+	.flickity-viewport .img {  //last
+		//margin-bottom: 1em!important; // makes them all the same.
+		margin-bottom: 0px!important;
+	}
+}
 /******* these should stay at bottom of this file **********/
 @import "partials/media";
