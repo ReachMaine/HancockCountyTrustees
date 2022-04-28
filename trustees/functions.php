@@ -1,17 +1,7 @@
 <?php
 	require_once(get_stylesheet_directory().'/custom/language.php');
 
-	add_action('after_setup_theme', ea_setup);
-	/**  ea_setup
-	*  init stuff that we have to init after the main theme is setup.
-	*
-	*/
-	function ea_setup() {
-	 /* do stuff ehre. */
-	 /* add_filter( 'image_size_names_choose', 'ea_custom_sizes' ); // choose image size in media drop down. */
-		//reach_woo_setup();
 
-	}
 	add_image_size('reach_featured_image', 750, 350, false);
 	function ea_custom_sizes( $sizes ) {
 	    return array_merge( $sizes, array(
